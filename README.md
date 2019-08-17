@@ -12,11 +12,11 @@ There are two classes
 
 (1) Collect.java
 
-	This class collects input from the user and creates a Markov object which is used to build the model and generate the names.
+This class collects input from the user and creates a Markov object which is used to build the model and generate the names.
 
 (2) Markov.java
 		
-	This class has the Markov Model. Functions seqGenerator() and setProbabilties() are used to create the model by using the data files to determine for which letters follow other sequences of letters some percentage of time. The probabilities of letters and previous sequences are stored in a hashtable. A makeName() method is used to generate a name from the probablitiy transitions found in the model while createNames() ensurres that the name constraints are followed. 
+This class has the Markov Model. Functions seqGenerator() and setProbabilties() are used to create the model by using the data files to determine for which letters follow other sequences of letters some percentage of time. The probabilities of letters and previous sequences are stored in a hashtable. A makeName() method is used to generate a name from the probablitiy transitions found in the model while createNames() ensurres that the name constraints are followed. 
 
 	
 
